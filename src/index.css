@@ -43,6 +43,7 @@ body {
     color: var(--color-white);
     line-height: 1.7;
     background-image: url(../src/assets/a2b130ece676a6baeec5d3813021bd90.jpg);
+    background-position: center;
 }
 
     /* ------------------ EStilos gerais ------------*/
