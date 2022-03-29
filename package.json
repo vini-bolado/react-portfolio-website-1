@@ -1,6 +1,7 @@
 {
   "name": "react-portfolio-website-1",
   "version": "0.1.0",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.5.0",
