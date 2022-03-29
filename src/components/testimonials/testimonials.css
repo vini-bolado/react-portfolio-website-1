@@ -9,7 +9,7 @@
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto 1rem;
-    border: 0.4rem solid var(--color-primary-variant);
+    border: 0.4rem solid #ffbf00;
 }
 
 
@@ -19,6 +19,7 @@
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
+    border: 2px solid #ffbf00;
 }
 
 .client__review{

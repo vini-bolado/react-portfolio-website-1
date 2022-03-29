@@ -8,12 +8,12 @@
      background: var(--color-bg-variant);
      padding: 1.3rem;
      border-radius: 2rem;
-     border: 1px solid transparent;
-     transition: var(transition);
+     border: 1.5px solid #ffbf00;
+     transition: var(--transition);
  }
 
  .portfolio__item:hover{
-     border-color: var(--color-primary-variant);
+     border-color: var(#ffbf00);
      background: transparent;
  }
 
@@ -34,25 +34,7 @@
  }
 
 
- @media screen and (max-width: 1024px){
-      
-    .about__container {
 
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
-    .about__me {
-        width: 50%;
-        margin: 2rem auto 4rem;
-        
-    }
-
-    .about__content p{
-        margin: 1rem 0 1.5rem;
-    }
-
-  }
- 
 
      
  /* -------------Responsividade de mídias(Tablets)-------------- */

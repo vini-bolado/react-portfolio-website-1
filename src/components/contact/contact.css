@@ -16,7 +16,7 @@
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 1px solid transparent;
+    border: 1px solid #ffbf00;
     transition: var(--transition);
 }
 
@@ -34,7 +34,7 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
-
+    
 }
 
 form {
@@ -47,8 +47,8 @@ input, textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    background: black;
+    border: 2px solid #ffbf00;
     resize: none;
     color: var(--color-white);
 }

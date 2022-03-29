@@ -41,7 +41,7 @@
 .about__card{
 
     background: var(--color-bg-variant);
-    border: 1px solid transparent;
+    border: 1px solid #ffbf00;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
