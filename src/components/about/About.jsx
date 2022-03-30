@@ -8,8 +8,8 @@ import {AiFillFolderAdd} from 'react-icons/ai'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get to know</h5>
-      <h2>About me</h2>
+      <h5>Bora me conhecer?</h5>
+      <h2>Sobre mim</h2>
 
       <div className='container about__container'>
         <div className='about__me'>
@@ -23,30 +23,31 @@ const About = () => {
           <div className="about__cards">
           <article className='about__card'>
           <FaAward className='about_icon'/>
-            <h5>Experience</h5>
-            <small>3+ Years Workinga</small>
+            <h5>Digital House</h5>
+            <small>Certified Tech Developer</small>
           </article>
 
 
           <article className='about__card'>
           <FiUsers className='about_icon'/>
-            <h5>Cliente</h5>
-            <small>200+ CLientesasfasf</small>
+            <h5>ibold</h5>
+            <small>WebDeveloper no instituto Ibold</small>
           </article>
 
 
           <article className='about__card'>
           <AiFillFolderAdd className='about_icon'/>
             <h5>Projetos Atuais</h5>
-            <small>Workingasdasd</small>
+            <small>Confidencial</small>
           </article>
         </div>
 
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi natus fuga placeat eligendi! Ipsam, facere ullam magnam ipsum esse perspiciatis, suscipit dolor et nostrum possimus officiis consequatur? Tempora, blanditiis distinctio.
+        Viciado em tecnologia e tudo que ela traz de benefício ao mundo, se eu tenho uma missão na vida é aprender o máximo que eu puder para fazer parte dessa jornada da evolução tecnológica no mundo.
+        Falar que é autodidata é pleonasmo na área da programação, e acredito que apesar disso me encaixo bem nesse termo, aprendi a compreender e me comunicar em inglês sem nenhum curso apenas com jogos RPG em que ter o inglês era essencial para realizar missões, fiz 3 anos de engenharia da computação e tive que interromper por problemas financeiros porem aprendi muito nessa caminhada sendo o pontapé para a minha paixão na programação e na área da tecnologia.
         </p>
 
-        <a href="#contact" className='btn btn-primary'>RECEBA</a>
+        <a href="#contact" className='btn btn-primary'>Curtiu?</a>
 
         </div>
 
