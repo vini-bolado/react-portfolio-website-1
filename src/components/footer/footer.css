@@ -25,28 +25,6 @@ footer a{
     margin: 0 auto 3rem;
 }
 
-.footer__socials {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 4rem;
-}
-
-.footer__socials a {
-    background: var(--color-bg);
-    color: var(--color-white);
-    padding: 0.8;
-    border-radius: 0.7;
-    display: flex;
-    border: 1px solid transparent;
-}
-
-.footer__socials a:hover{
-    background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
-}
-
 
 .footer__copyright{
     margin-bottom: 4rem;
@@ -64,10 +42,6 @@ footer a{
         flex-direction: column;
         gap: 1.5rem;
     }
-    .footer__socials{
-        margin-bottom: 2.6rem;
 
-    }
-  
   }
   

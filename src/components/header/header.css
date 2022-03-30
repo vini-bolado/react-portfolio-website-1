@@ -44,10 +44,10 @@ header {
 
 /* ---------------- SOCIAL ---------------*/
 .me {
-
+    
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 26rem;
+    height: 29rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
@@ -74,13 +74,18 @@ header {
   @media screen and (max-width: 1024px){
       
     header{
-        height: 68vh;
+        height: 88vh;
     }
   }
   
      /* -------------Responsividade de mídias(tel)-------------- */
 
      @media screen and (max-width: 600px){
+
+        .me{
+            width: 20rem;
+            margin-left: 15px;
+        }
 
         header{
             height: 100vh;

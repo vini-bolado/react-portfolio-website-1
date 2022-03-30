@@ -58,7 +58,7 @@ const Experience = () => {
           </div>
         </div>
         <div className="experience__backend">
-        <h3>Back end experience</h3>
+        <h3>Backend Development</h3>
           <div className="experience__content">
 
             <article className='experience__details'><BsFillPatchCheckFill className='experience__details-icon'/>
@@ -77,26 +77,26 @@ const Experience = () => {
 
             <article className='experience__details'><BsFillPatchCheckFill className='experience__details-icon'/>
             <div>
-            <h4>Loading...</h4>
+            <h4>Aprendendo...</h4>
             <small className='text-light'>experienced</small>
             </div>
             </article>
 
             <article className='experience__details'><BsFillPatchCheckFill className='experience__details-icon'/>
             <div>
-            <h4>Loading...</h4>
+            <h4>Aprendendo...</h4>
             <small className='text-light'>experienced</small>
             </div>
             </article>
 
             <article className='experience__details'><BsFillPatchCheckFill className='experience__details-icon'/>
-            <div><h4>Loading...</h4>
+            <div><h4>Aprendendo...</h4>
             <small className='text-light'>experienced</small></div>
             </article>
 
             <article className='experience__details'><BsFillPatchCheckFill className='experience__details-icon'/>
             <div>
-            <h4>Loading...</h4>
+            <h4>Aprendendo...</h4>
             <small className='text-light'>experienced</small>
             </div>
             </article>
