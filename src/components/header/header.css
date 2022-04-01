@@ -43,20 +43,21 @@ header {
 
 
 /* ---------------- SOCIAL ---------------*/
-.me {
-    
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 29rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+
+.video-js{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
 }
 
+.vjs-poster{
+     border-radius: 20px;
+}
 
+.me{
+    padding: 50px;
+}
 
 /* ---------------- SCROLL ---------------*/
 
@@ -76,16 +77,24 @@ header {
     header{
         height: 88vh;
     }
+    
+    .video-js{
+            
+        width: 100%;
+        
+    }
   }
   
      /* -------------Responsividade de mídias(tel)-------------- */
 
      @media screen and (max-width: 600px){
 
-        .me{
-            width: 20rem;
-            margin-left: 15px;
+        .video-js{
+            
+            width: 100%;
+            
         }
+            
 
         header{
             height: 100vh;

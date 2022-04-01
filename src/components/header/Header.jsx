@@ -1,10 +1,14 @@
 import './header.css'
 import React from 'react'
 import CTA from './CTA'
-import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
+import VideoPlayer from 'react-video-js-player'
+import Car from '../../assets/car.mp4'
 
 const Header = () => {
+  const videoSrc = Car;
+  const poster = "";
+
   return (
       <header>
         <div className="container header__container">
@@ -15,7 +19,12 @@ const Header = () => {
           <HeaderSocials />
 
           <div className="me">
-            <img src={ME} alt="me" />
+            <VideoPlayer
+            src={videoSrc}
+            poster={poster}
+            width="720"
+            height="360" 
+            />
           </div>
 
           <a href="#contact"className='scroll__down'>Scroll Down</a>
