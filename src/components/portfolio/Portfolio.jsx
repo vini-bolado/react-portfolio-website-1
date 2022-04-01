@@ -1,49 +1,50 @@
 import './portfolio.css'
 import React from 'react'
-import EU from '../../assets/me.png'
+
+import Breve from '../../assets/Breve.png'
 
 // Usando método
 
 const data = [
   {
     id: 1,
-    image: EU,
-    title: 'Roubando fazendo isCursorAtStart',
+    image: Breve,
+    title: 'App de Gerenciamento de tarefas em flutter',
     github: 'https://github.com/vini-bolado?tab=repositories',
     demo: 'https://github.com/vini-bolado?tab=repositories'
   },
   {
     id: 2,
-    image: EU,
-    title: 'Roubando fazendo isCursorAtStart',
+    image: Breve,
+    title: 'Dashboard',
     github: 'https://github.com/vini-bolado?tab=repositories',
     demo: 'https://github.com/vini-bolado?tab=repositories'
   },
   {
     id: 3,
-    image: EU,
-    title: 'Roubando fazendo isCursorAtStart',
+    image: Breve,
+    title: 'Formulário com autenticação em Angular',
     github: 'https://github.com/vini-bolado?tab=repositories',
     demo: 'https://github.com/vini-bolado?tab=repositories'
   },
   {
     id: 4,
-    image: EU,
-    title: 'Roubando fazendo isCursorAtStart',
+    image: Breve,
+    title: 'Criando chat bot com React-native',
     github: 'https://github.com/vini-bolado?tab=repositories',
     demo: 'https://github.com/vini-bolado?tab=repositories'
   },
   {
     id: 5,
-    image: EU,
-    title: 'Roubando fazendo isCursorAtStart',
+    image: Breve,
+    title: 'Analise facial com python',
     github: 'https://github.com/vini-bolado?tab=repositories',
     demo: 'https://github.com/vini-bolado?tab=repositories'
   },
   {
     id: 6,
-    image: EU,
-    title: 'Roubando fazendo isCursorAtStart',
+    image: Breve,
+    title: 'bot de Xadrez',
     github: 'https://github.com/vini-bolado?tab=repositories',
     demo: 'https://github.com/vini-bolado?tab=repositories'
   },
@@ -55,7 +56,7 @@ const Portfolio = () => {
     <section id='portfolio'>
 
       <h5>Trabalhos recentes</h5>
-      <h2>Portfolio</h2>
+      <h2>Projetos</h2>
 
       <div className="container portfolio__container">
 
