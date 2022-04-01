@@ -4,12 +4,10 @@
 }
 
 .client__avatar{
-    width: 4rem;
-    aspect-ratio: 1/1;
+
     overflow: hidden;
-    border-radius: 50%;
     margin: 0 auto 1rem;
-    border: 0.4rem solid #ffbf00;
+    border: 2px solid #ffbf00;
 }
 
 
@@ -23,7 +21,7 @@
 }
 
 .client__review{
-    color: var(--color-light);
+    color: white;
     font-weight: 300;
     display: block;
     width: 80%;
