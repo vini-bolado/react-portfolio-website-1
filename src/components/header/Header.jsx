@@ -4,10 +4,11 @@ import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 import VideoPlayer from 'react-video-js-player'
 import Car from '../../assets/car.mp4'
+import eai from '../../assets/eai.png'
 
 const Header = () => {
   const videoSrc = Car;
-  const poster = "";
+ 
 
   return (
       <header>
@@ -21,7 +22,7 @@ const Header = () => {
           <div className="me">
             <VideoPlayer
             src={videoSrc}
-            poster={poster}
+            poster={eai}
             width="720"
             height="360" 
             />
