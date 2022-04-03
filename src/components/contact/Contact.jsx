@@ -41,7 +41,7 @@ const Contact = () => {
           <RiMessengerLine className='contact__option-icon'/>
           <h4>Messenger</h4>
           <h5>Vinicius Evandro</h5>
-          <a href="https://m.me/profile.php?id=100005057058658"target="blank">Menda uma Mensagem</a>
+          <a href="https://m.me/profile.php?id=100005057058658"target="blank">Manda uma Mensagem</a>
         </article>
 
 
