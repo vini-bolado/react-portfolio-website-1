@@ -10,6 +10,8 @@ const About = () => {
     <section id='about'>
       <h5>Bora me conhecer?</h5>
       <h2>Sobre mim</h2>
+    
+
 
       <div className='container about__container'>
         <div className='about__me'>

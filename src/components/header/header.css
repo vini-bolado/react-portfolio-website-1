@@ -49,6 +49,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
+    border: solid gold;
 }
 
 .vjs-poster{
